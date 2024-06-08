@@ -1,0 +1,17 @@
+<div class="flex items-center justify-center w-screen h-screen bg-slate-800">
+  <!-- <p class="flex items-center justify-center text-[80px] font-extrabold border w-full max-h-[80px]">WELCOME</p> -->
+  <div (mouseenter)="enter()" (mouseleave)="leave()" class="input cursor-pointer h-[60px] w-[300px] bg-[#fff] rounded-[100px] relative overflow-hidden">
+    <div class="text absolute left-5 text-2xl top-[12px] font-bold z-10">Get started</div>
+    <div class="block absolute right-[3px] top-[2px] rounded-full bg-blue-800 h-[56px] w-[56px]">
+      <div class="relative">
+        <img class="absolute img right-[10px] top-[10px]" src="assets/arrow-sm-right-svgrepo-com.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div (mouseenter)="roundEnter()" (mouseleave)="roundLeave()" class="round h-[56px] w-[56px] rounded-full ml-2 bg-blue-800 flex items-center justify-center relative overflow-hidden">
+    <span class="inline-block text-2xl text-[#000] moins hidden relative z-10">-</span>
+    <span class="inline-block text-2xl text-[#fff] plus relative z-10">+</span>
+    <div class="absolute round-2 h-[56px] w-[56px] bg-[#fff] rounded-full -bottom-[60px]">
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    overflow: hidden;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
